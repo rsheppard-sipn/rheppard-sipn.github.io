@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script>
+      var queryString = window.location.search;
+      var urlParams = new URLSearchParams(queryString);
+      window.location = urlParams.get("url");
+    </script>
+  </body>
+</html>
